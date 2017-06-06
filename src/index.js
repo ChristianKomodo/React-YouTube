@@ -18,7 +18,7 @@ class App extends Component {
 			selectedVideo: null
 		};
 
-		this.videoSearch('react');
+		this.videoSearch('react js');
 
 	}
 
