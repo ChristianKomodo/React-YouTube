@@ -3,17 +3,19 @@ import React from 'react';
 const VideoListItem = ({video, onVideoSelect}) => {
 	const imageUrl = video.snippet.thumbnails.default.url;
 
+	console.log(video.snippet);
+
 	return (
-		<li onClick={() => onVideoSelect(video)} className="list-group-item">
-			<div className="video-list media">
-				<div className="media-left">
-					<img className="media-object" src={imageUrl} />
+		<a href="#" className="list-group-item list-group-item-action flex-column" onClick={() => onVideoSelect(video)}>
+			<div className="d-flex w-100">
+				<div className="media-object">
+					<img src={imageUrl} />
+				</div>
+				<div>
+					<strong className="mb-1">{video.snippet.title}</strong>
 				</div>
 			</div>
-			<div className="media-body">
-				<div className="media-heading">{video.snippet.title}</div>
-			</div>
-		</li>
+		</a>
 	);
 };
 
