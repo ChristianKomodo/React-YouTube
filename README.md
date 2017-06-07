@@ -1,6 +1,6 @@
 # YouTube Search / Player in React
 
-A simple React application that allows the user to search and play videos using the YouTube API.  Transpiled with *Babel* and bundled with *Webpack*.
+A simple React application that allows the user to search and play videos using the YouTube API.  Transpiled by *Babel* and bundled by *Webpack*.
 
 ## Clone and Start
 
