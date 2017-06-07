@@ -1,10 +1,10 @@
 # YouTube Search / Player in React
 
-Simple React/Redux application that can search youTube for videos and play them.
+A simple React application that allows the user to search and play videos using the YouTube API.  Transpiled by *Babel* and bundled by *Webpack*.
 
 ## Clone and Start
 
-Clone the repo and then start the server using the following commands:
+Clone the repo and start the server using the following commands:
 
 ```
 > git clone https://github.com/ChristianKomodo/React-YouTube.git
